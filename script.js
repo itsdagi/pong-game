@@ -21,3 +21,13 @@ function draw(){
 }
 
 draw();
+
+Almost all games contain game loop that orchestrates everything that has to happen for each frame of the game. Game loops are similar to animation loops. ut with some additional logic. here is the general shape of the game loop in most games:
+
+Clear canvas
+Draw image
+get player input
+Update state
+Check collisions
+Wait a short time 
+Repeat 
